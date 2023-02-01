@@ -15,18 +15,21 @@ public class Main {
 		charlie.dormi();
 		charlie.mangia();
 		charlie.verso();
+		charlie.vola();
 
 		Delfino willy = new Delfino();
 		System.out.println("Delfino: ");
 		willy.dormi();
 		willy.mangia();
 		willy.verso();
+		willy.nuota();
 
 		Aquila lia = new Aquila();
 		System.out.println("Aquila: ");
 		lia.dormi();
 		lia.mangia();
 		lia.verso();
+		lia.vola();
 
 	}
 

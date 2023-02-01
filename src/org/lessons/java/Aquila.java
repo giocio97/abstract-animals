@@ -1,15 +1,21 @@
 package org.lessons.java;
 
-public class Aquila extends Animale implements Volatili {
+public class Aquila extends Animale implements Ivolatili {
 
 	@Override
-	void verso() {
+	public void verso() {
 		System.out.println("Grrr!!!");
 	}
 
 	@Override
-	void mangia() {
+	public void mangia() {
 		System.out.println(" uccelli");
+
+	}
+
+	@Override
+	public void vola() {
+		System.out.println(" l'aquila vola: Sto Volandoooo!!!!");
 
 	}
 
