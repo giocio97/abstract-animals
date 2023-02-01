@@ -1,6 +1,6 @@
 package org.lessons.java;
 
-public class Passerotto extends Animale {
+public class Passerotto extends Animale implements Volatili {
 
 	@Override
 	void verso() {

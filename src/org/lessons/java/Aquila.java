@@ -1,6 +1,6 @@
 package org.lessons.java;
 
-public class Aquila extends Animale {
+public class Aquila extends Animale implements Volatili {
 
 	@Override
 	void verso() {
