@@ -6,7 +6,7 @@ public abstract class Animale {
 		System.out.println("zzzz");
 	}
 
-	abstract void verso();
+	public abstract void verso();
 
-	abstract void mangia();
+	public abstract void mangia();
 }

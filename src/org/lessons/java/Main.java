@@ -4,6 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		Movimento mov = new Movimento();
+
 		Cane billy = new Cane();
 		System.out.println("Cane: ");
 		billy.verso();
@@ -15,21 +17,21 @@ public class Main {
 		charlie.dormi();
 		charlie.mangia();
 		charlie.verso();
-		charlie.vola();
+		mov.vola(charlie);
 
 		Delfino willy = new Delfino();
 		System.out.println("Delfino: ");
 		willy.dormi();
 		willy.mangia();
 		willy.verso();
-		willy.nuota();
+		mov.nuota(willy);
 
 		Aquila lia = new Aquila();
 		System.out.println("Aquila: ");
 		lia.dormi();
 		lia.mangia();
 		lia.verso();
-		lia.vola();
+		mov.vola(lia);
 
 	}
 
